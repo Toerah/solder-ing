@@ -3,3 +3,4 @@ sudo raspi-config #Enable the SPI Interface
 sudo reboot
 lsmod | grep spi
 pip3 install RPi.GPIO
+#http://www.penguintutor.com/news/raspberrypi/rfid-rc522
