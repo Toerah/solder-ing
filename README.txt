@@ -1,8 +1,5 @@
-sudo raspi-config
-#Enable the SPI Interface
+#Wire up the reader https://www.youtube.com/watch?v=IeuQNXSNzxA
+sudo raspi-config #Enable the SPI Interface
 sudo reboot
 lsmod | grep spi
-sudo apt-get install python2.7-dev
-git clone https://github.com/lthiery/SPI-Py.git
-cd SPI-Py
-sudo python setup.py install
+pip3 install RPi.GPIO
